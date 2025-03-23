@@ -1,10 +1,10 @@
-# UW Project Topic Submission App
+# TECHIN510 Topic Submission App
 
-A Streamlit web application for collecting and managing project topic submissions from students, with a bidding system for project selection.
+A web application for collecting and managing project topic submissions from students, with a bidding system for project selection.
 
 ## Features
 
-- Students can submit their name, UW NetID, project topic, and description
+- Students can submit their name, project topic, and description
 - Admin authentication for instructors
 - Admin can view all submissions in a table format
 - Admin can download all submissions as a CSV file
@@ -13,18 +13,6 @@ A Streamlit web application for collecting and managing project topic submission
 - Bidding system where students can allocate 100 points across up to 3 projects
 - Admin can view and download bid data
 - Visual summary of bids per project
-
-## Setup and Installation
-
-1. Clone this repository
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the Streamlit app:
-   ```
-   streamlit run app.py
-   ```
 
 ## Usage
 
