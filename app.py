@@ -279,7 +279,7 @@ def clear_bids():
 
 # Main app layout
 def main():
-    st.title("TECHIN510 Project Topic Submission")
+    st.title("UW Project Topic Submission")
     
     # Sidebar for admin login and user identification
     with st.sidebar:
@@ -299,7 +299,7 @@ def main():
                 del st.session_state.user_name
             if 'user_netid' in st.session_state:
                 del st.session_state.user_netid
-            st.experimental_rerun()
+            st.rerun()
         
         st.info(f"Currently viewing: {st.session_state.current_section}")
         
