@@ -279,7 +279,7 @@ def clear_bids():
 
 # Main app layout
 def main():
-    st.title("UW Project Topic Submission")
+    st.title("TECHIN510 Project Topic Submission")
     
     # Sidebar for admin login and user identification
     with st.sidebar:
